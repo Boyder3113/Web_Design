@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background-color:darkgrey">
     <div class="Navigation">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -18,7 +18,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Resources/comp.html">Comparison</a>
+                <a class="nav-link active" aria-current="page" href="Resources/comparison.html">Comparison</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Resources/Data.html">Data</a>
@@ -39,55 +39,61 @@
         </div>
       </nav>
     </div>
+</br>
+</br>
     <div class="container">
+      <article class="description-content row">
       <div class="row">
-        <div class="col-lg-7 col-md-12">
+        <div class="col-lg-6 col-md-12" style="background-color: white;">
           <div class="box" style="padding-bottom: 20px;">
             <h1 class="title">Summary: Latitude vs. X</h1>
             <hr>
-            <img src="Resources/assets/images/Fig1.png" class="Visualization rounded float=left" alt="Max Temperature Graph"
+            <img src="Resources/assets/images/Fig1.png" class="Visualization rounded float=left" alt="Max Temperature Graph" width="600" height="400">
             <p> The purpose of the project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
             <br>
             <p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explainations and descriptions of any trends and correlations witnessed.</p>
           </div>
         </div>
-        <div class="col-lg-5 col-md-12">
+      </br>
+        <div class="col-lg-6 col-md-12" style="background-color: white;">
           <div class="box">
-            <h1 class="title">visualizations</h1>
+            <h1 class="title">Visualizations</h1>
             <hr>
             <div class="container">
               <div class="row" style="padding-bottom: 70px;">
                 <div class="col-6">
                   <div class="title">Latitude vs. Max Temperature</div>
                   <a href="Resources/temp.html">
-                  <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temp Chart">
+                  <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temp Chart" width="200" height="200">
                   </a>
                 </div>
                 <div class="col-6">
                   <div class="title">Latitude vs. Humidity</div>
                   <a href="Resources/humidity.html">
-                  <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Chart">
+                  <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Chart" width="200" height="200">
                   </a>
                 </div>
               </div>
               <div class="row" style="padding-bottom: 70px;">
               <div class="col-6">
                 <div class="title">Latitude vs. Cloudiness</div>
-                <a href="Resources/cloudniess.html">
-                <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Chart">
+                <a href="Resources/cloudiness.html">
+                <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Chart" width="200" height="200">
                 </a>
               </div>
               <div class="col-6">
                 <div class="title">Latitude vs. Wind Speed</div>
                 <a href="Resources/windspeed.html">
-                <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Chart">
+                <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Chart" width="200" height="200">
                 </a>
               </div>
               </div>
             </div>
           </div>
         </div>
-    
+    </div>
+    </article>
+  </div>
             
     
     

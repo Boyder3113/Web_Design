@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background-color: darkgrey;">
     <div class="Navigation">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -18,10 +18,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Resources/comp.html">Comparison</a>
+                <a class="nav-link active" aria-current="page" href="comparison.html">Comparison</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Resources/Data.html">Data</a>
+                <a class="nav-link" href="data.html">Data</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,47 +39,51 @@
         </div>
       </nav>
     </div>
+</br>
+</br>
     <div class="container">
       <div class="row">
-        <div class="col-lg-7 col-md-12">
+        <div class="col-lg-6 col-md-12" style="background-color: white;">
           <div class="box" style="padding-bottom: 20px;">
             <h1 class="title">Latitude vs. Humidity</h1>
+            <a href="../index.html">
             <hr>
-            <img src="assets/images/Fig2.png" class="Visualization rounded float=left" alt="Max Temperature Graph"
+            <img src="assets/images/Fig2.png" class="Visualization rounded float=left" alt="Max Temperature Graph" width="600" height="400">
+            </a>
             <p>We can see from this chart that the correlation between a cities latitude and humidiy is almost non-existant. We can come to this conclusion because we see such a range of humidity's at every latitudinal point. If any humidity level can occur at any longitudinal point we can conclude a weak correlation. We can see that of the plotted cities, the majority of humidity levels is 50% or above, so humid cities are more common then less humid cities.</p>
             <br>
           </div>
         </div>
-        <div class="col-lg-5 col-md-12">
+        <div class="col-lg-6 col-md-12" style="background-color: white;">
           <div class="box">
-            <h1 class="title">visualizations</h1>
+            <h1 class="title">Visualizations</h1>
             <hr>
             <div class="container">
               <div class="row" style="padding-bottom: 70px;">
                 <div class="col-6">
                   <div class="title">Latitude vs. Max Temperature</div>
                   <a href="temp.html">
-                  <img class="panel" src="assets/images/Fig1.png" alt="Max Temp Chart">
+                  <img class="panel" src="assets/images/Fig1.png" alt="Max Temp Chart" width="200" height="200">
                   </a>
                 </div>
                 <div class="col-6">
                   <div class="title">Latitude vs. Humidity</div>
                   <a href="humidity.html">
-                  <img class="panel" src="assets/images/Fig2.png" alt="Humidity Chart">
+                  <img class="panel" src="assets/images/Fig2.png" alt="Humidity Chart" width="200" height="200">
                   </a>
                 </div>
               </div>
               <div class="row" style="padding-bottom: 70px;">
               <div class="col-6">
                 <div class="title">Latitude vs. Cloudiness</div>
-                <a href="cloudniess.html">
-                <img class="panel" src="assets/images/Fig3.png" alt="Cloudiness Chart">
+                <a href="cloudiness.html">
+                <img class="panel" src="assets/images/Fig3.png" alt="Cloudiness Chart" width="200" height="200">
                 </a>
               </div>
               <div class="col-6">
                 <div class="title">Latitude vs. Wind Speed</div>
                 <a href="windspeed.html">
-                <img class="panel" src="assets/images/Fig4.png" alt="Wind Speed Chart">
+                <img class="panel" src="assets/images/Fig4.png" alt="Wind Speed Chart" width="200" height="200"> 
                 </a>
               </div>
               </div>
